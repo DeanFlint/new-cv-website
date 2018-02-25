@@ -1,3 +1,5 @@
+@import "helpers/variables";
+
 .bg-black{
 	background:#000;
 	color:#fff;
@@ -20,6 +22,19 @@
 		opacity:0.8;
 		cursor:pointer;
 	}
+}
+
+.home-bg {
+	background-color: $home-bg;
+}
+.exp-bg {
+	background-color: $exp-bg;
+}
+.edu-bg {
+	background-color: $edu-bg;
+}
+.port-bg {
+	background-color: $port-bg;
 }
 
 @media(min-width:1199px){
