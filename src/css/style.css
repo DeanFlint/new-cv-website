@@ -1,0 +1,45 @@
+.bg-black {
+  background: #000;
+  color: #fff; }
+
+#main-header img {
+  width: 100%;
+  height: 100%; }
+#main-header .port-item {
+  width: 25%; }
+  #main-header .port-item .fa {
+    font-size: 2.0em; }
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+.work-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%; }
+
+.card ul {
+  padding-left: 0; }
+  .card ul .fa-chevron-right {
+    margin-right: 10px;
+    font-size: 10px; }
+  .card ul li {
+    list-style-type: none; }
+
+.home-bg {
+  background-color: #7E8D85; }
+
+.exp-bg {
+  background-color: #29BF89; }
+
+.edu-bg {
+  background-color: #0083BB; }
+
+.port-bg {
+  background-color: #BDBDBE; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 1em 1.5em !important; } }
+
+/*# sourceMappingURL=style.css.map */
