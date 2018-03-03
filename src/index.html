@@ -15,22 +15,19 @@
 	<div class="container">
 		<header id="main-header">
 			<div class="row no-gutters">
-				<div class="col-lg-3 col-md-5">
-					<img src="./images/cover.jpg">
-				</div>
-				<div class="col-lg-9 col-md-7">
-					<div class="d-flex flex-column">
-						<div class="p-5 bg-dark text-white">
-							<div class="name d-flex flex-row justify-content-between align-items-center">
-								<h1 class="display-4">Dean Flint</h1>
-								<div><i class="fa fa-github"></i></div>
-								<div><i class="fa fa-facebook"></i></div>
-								<div><i class="fa fa-linkedin"></i></div>
-							</div>
+				<div class="col">
+					<div class="row no-gutters bg-dark">
+						<div class="col-md-4">
+							<div class="p-5">
+								<img class="cover" src="./images/cover.jpg">
+							</div>							
 						</div>
-						<div class="p-4 bg-black">
-							Front-End Web Developer, aspiring Full-Stack Web Developer.
-						</div>						
+						<div class="col-md-8 p-5 text-white my-auto">
+							<div class="name d-flex flex-column align-items-center">
+								<h1 class="display-4">Dean Flint</h1>
+								<span class="p-4"> Front-End Web Developer, aspiring Full-Stack Web Developer.</span>
+							</div>									
+						</div>
 					</div>
 					<div class="d-flex flex-row text-white align-items-stretch text-center">
 						<div class="port-item p-3 home-bg" data-toggle="collapse" data-target="#home">
@@ -309,6 +306,90 @@
 			<div class="card card-body edu-bg text-white p-5">
 				<blockquote class="blockquote">There are 10 types of people in the world, those who get binary and those that don't...</blockquote>
 			</div>
+
+			<div class="card card-body py-5">
+				<h3> Where have I studied?</h3>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos accusantium mollitia commodi, ullam distinctio natus.</p>
+			</div>
+
+			<div class="card-deck">
+					<div class="card my-3">
+						<div class="card-header d-flex flex-row justify-content-between">
+							<div class="d-inline-flex p-2 my-auto">
+								<h4>Mount St Mary's High School</h4>	
+							</div>
+							<div class="d-inline-flex p-2 align-self-end my-auto">
+								<img src="images/williamhill.jpg" class="work-icon"/>
+							</div> 
+						</div>
+						<div class="card-body">
+							<img src="images/ed1.png" class="work-icon">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#ed1">View Details</button>
+
+						    <div class="modal" id="ed1">
+						      <div class="modal-dialog">
+						        <div class="modal-content">
+						          <div class="modal-header">
+						            <h4 class="modal-title">Mount St Mary's High School</h4>
+						            <button class="close" data-dismiss="modal">&times;</button>
+						          </div>
+						          <!-- /modal-header -->
+						          <div class="modal-body">
+						          	<h5>Leeds, West Yorkshire, UK</h5>
+									<h6>Sept 2001 – Sept 2006</h6>
+						            <p class="mt-2">
+										<ul>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Mathematics</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Science</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>ICT</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>English</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Sociology</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>History</li>
+											<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Religious Education</li>
+										</ul>
+									</p>
+						          </div>
+						          <!-- /modal-body -->
+						          <div class="modal-footer">
+						            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+						          </div>
+						          <!-- /modal-footer -->
+						        </div>
+						        <!-- /modal-content -->
+						      </div>
+						      <!-- /modal-dialog -->
+						    </div>
+
+						</div>
+					</div>
+					
+					<div class="card my-3">
+						<div class="card-header d-flex flex-row justify-content-between">
+							<div class="d-inline-flex p-2 my-auto">
+								<h4>Customer Sales Assistant</h4>	
+							</div>
+							<div class="d-inline-flex p-2 my-auto">
+								<img src="images/wynsors.jpg" class="work-icon"/>
+							</div> 
+						</div>
+						<div class="card-body">
+							
+							<span class="card-title">
+								<h4>Wynsor’s World of Shoes</h4>
+								<h5>Leeds, West Yorkshire, UK</h5>
+								<h6>Feb 2006 – Sept 2009</h6>
+							</span>
+							<p class="card-text mt-2">
+								<ul>
+									<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Working alongside a team to achieve set goals and targets. </li>
+									<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>Working the till system which meant that I was responsible for handling money. </li>
+									<li class="mb-1"><i class="fa fa-chevron-right" aria-hidden="true"></i>I was assigned a department of the store and was responsible for its presentation and the merchandising of the products.</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+
 		</div>
 		
 		<!-- PORTFOLIO -->
@@ -320,11 +401,18 @@
 
 		<!-- FOOTER --> 
 		<footer id="main-footer" class="p-5 bg-dark text-white">
-			<div class="row">
-				<div class="col-md-6">
-					<a href="#" class="btn btn-outline-light"><i class="fa fa-cloud">Download CV</i></a>
+			<div class="col-sm-6">
+				<div class="p-5 bg-dark text-white">
+					<div class="name d-flex flex-row justify-content-between align-items-center">								
+						<div><i class="fa fa-github"></i></div>
+						<div><i class="fa fa-facebook"></i></div>
+						<div><i class="fa fa-linkedin"></i></div>
+						<div><a href="#" class="btn btn-outline-light"><i class="fa fa-cloud">Download CV</i></a></div>
+					</div>
 				</div>
 			</div>
+
+
 		</footer>
 		
 	</div>

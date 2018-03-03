@@ -1,5 +1,9 @@
 @import "helpers/variables";
 
+.container{
+	min-width: 400px;
+}
+
 .bg-black{
 	background:#000;
 	color:#fff;
@@ -9,6 +13,7 @@
 	img{
 	width:100%;
 	height:100%;
+	border-radius: 50%;
 	}
 
 	.port-item{	
@@ -62,3 +67,6 @@
 	}
 }
 
+.card {
+
+}
