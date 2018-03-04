@@ -1,5 +1,6 @@
 .container {
-  min-width: 400px; }
+  min-width: 400px;
+  font-family: 'Open Sans', sans-serif; }
 
 .bg-black {
   background: #000;
@@ -47,3 +48,7 @@
 @media (min-width: 1199px) {
   .port-item {
     padding: 1em 1.5em !important; } }
+
+.card {
+  border-radius: 0;
+  border: none; }

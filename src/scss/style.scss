@@ -2,6 +2,7 @@
 
 .container{
 	min-width: 400px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .bg-black{
@@ -68,5 +69,6 @@
 }
 
 .card {
-
+	border-radius: 0;
+	border: none;
 }
