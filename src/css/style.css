@@ -20,6 +20,9 @@
   opacity: 0.8;
   cursor: pointer; }
 
+#main-footer .social .fa {
+  font-size: 1.5em; }
+
 .work-icon {
   height: 50px;
   width: 50px;
@@ -45,6 +48,15 @@
 .port-bg {
   background-color: #BDBDBE; }
 
+.bar-green {
+  background-color: green; }
+
+.bar-amber {
+  background-color: orange; }
+
+.bar-red {
+  background-color: red; }
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 1em 1.5em !important; } }
@@ -52,3 +64,11 @@
 .card {
   border-radius: 0;
   border: none; }
+
+/*.card-deck {
+	.skill-bars{
+		h6{
+			text-align: center;
+		}
+	}
+}*/

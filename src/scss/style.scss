@@ -30,6 +30,14 @@
 	}
 }
 
+#main-footer {
+	.social{
+		.fa {
+		font-size: 1.5em;
+		}
+	}
+}
+
 .work-icon {
 	height: 50px;
 	width: 50px;
@@ -62,6 +70,18 @@
 	background-color: $port-bg;
 }
 
+.bar-green {
+	background-color: $bar-green;
+}
+
+.bar-amber {
+	background-color: $bar-amber;
+}
+
+.bar-red {
+	background-color: $bar-red;
+}
+
 @media(min-width:1199px){
 	.port-item{
 		padding:1em 1.5em !important;
@@ -72,3 +92,11 @@
 	border-radius: 0;
 	border: none;
 }
+
+/*.card-deck {
+	.skill-bars{
+		h6{
+			text-align: center;
+		}
+	}
+}*/
