@@ -21,7 +21,13 @@
   cursor: pointer; }
 
 #main-footer .social .fa {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  color: #fff; }
+  #main-footer .social .fa:hover {
+    color: #49a4ff; }
+
+#main-footer .btn:hover {
+  color: #343a40; }
 
 .work-icon {
   height: 50px;
@@ -37,25 +43,52 @@
     list-style-type: none; }
 
 .home-bg {
-  background-color: #7E8D85; }
+  background-color: #d6ce15; }
+
+.home-bg-2 {
+  background-color: rgba(214, 206, 21, 0.55); }
+
+.home-bg-3 {
+  background-color: rgba(214, 206, 21, 0.15); }
 
 .exp-bg {
-  background-color: #29BF89; }
+  background-color: #a4a71e; }
+
+.exp-bg-2 {
+  background-color: rgba(164, 167, 30, 0.55); }
+
+.exp-bg-3 {
+  background-color: rgba(164, 167, 30, 0.15); }
 
 .edu-bg {
-  background-color: #0083BB; }
+  background-color: #53900f; }
+
+.edu-bg-2 {
+  background-color: rgba(83, 144, 15, 0.55); }
+
+.edu-bg-3 {
+  background-color: rgba(83, 144, 15, 0.15); }
 
 .port-bg {
-  background-color: #BDBDBE; }
+  background-color: #1f6521; }
+
+.port-bg-2 {
+  background-color: rgba(31, 101, 33, 0.55); }
+
+.port-bg-3 {
+  background-color: rgba(31, 101, 33, 0.15); }
+
+.progress {
+  background-color: #d5d8da; }
 
 .bar-green {
-  background-color: green; }
+  background-color: #42c442; }
 
 .bar-amber {
-  background-color: orange; }
+  background-color: #e9a82f; }
 
 .bar-red {
-  background-color: red; }
+  background-color: #e23f3f; }
 
 @media (min-width: 1199px) {
   .port-item {
@@ -64,11 +97,9 @@
 .card {
   border-radius: 0;
   border: none; }
+  .card .card-header {
+    border-bottom: none; }
 
-/*.card-deck {
-	.skill-bars{
-		h6{
-			text-align: center;
-		}
-	}
-}*/
+.card-deck {
+  margin-right: 0;
+  margin-left: 0; }
