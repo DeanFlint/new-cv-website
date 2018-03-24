@@ -34,7 +34,15 @@
 	.social{
 		.fa {
 		font-size: 1.5em;
+		color: #fff;		
+			&:hover{
+				color: $light-blue;
+			}
 		}
+	}
+
+	.btn:hover{
+		color: $grey;
 	}
 }
 
@@ -60,14 +68,53 @@
 .home-bg {
 	background-color: $home-bg;
 }
+
+.home-bg-2 {
+	background-color: rgba($home-bg, .55);
+}
+
+.home-bg-3 {
+	background-color: rgba($home-bg, .15);
+}
+
 .exp-bg {
 	background-color: $exp-bg;
 }
+
+.exp-bg-2 {
+	background-color: rgba($exp-bg, .55);
+}
+
+.exp-bg-3 {
+	background-color: rgba($exp-bg, .15);
+}
+
 .edu-bg {
 	background-color: $edu-bg;
 }
+
+.edu-bg-2 {
+	background-color: rgba($edu-bg, .55);
+}
+
+.edu-bg-3 {
+	background-color: rgba($edu-bg, .15);
+}
+
 .port-bg {
 	background-color: $port-bg;
+}
+
+.port-bg-2 {
+	background-color: rgba($port-bg, .55);
+}
+
+.port-bg-3 {
+	background-color: rgba($port-bg, .15);
+}
+
+.progress{
+	background-color: #d5d8da;
 }
 
 .bar-green {
@@ -91,12 +138,12 @@
 .card {
 	border-radius: 0;
 	border: none;
+	.card-header{
+		border-bottom: none;
+	}
 }
 
-/*.card-deck {
-	.skill-bars{
-		h6{
-			text-align: center;
-		}
-	}
-}*/
+.card-deck {
+	margin-right: 0;
+	margin-left: 0;
+}
