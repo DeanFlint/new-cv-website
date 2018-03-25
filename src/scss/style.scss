@@ -129,12 +129,6 @@
 	background-color: $bar-red;
 }
 
-@media(min-width:1199px){
-	.port-item{
-		padding:1em 1.5em !important;
-	}
-}
-
 .card {
 	border-radius: 0;
 	border: none;
@@ -143,7 +137,46 @@
 	}
 }
 
-.card-deck {
+.card-deck{
+	margin-right:0;
+	margin-left:0;
+}
+
+.row {
 	margin-right: 0;
 	margin-left: 0;
+}
+
+#portfolio {
+	.row{
+		.card{
+		min-height: 275px;
+		}
+	}
+}
+
+#education {
+	.row{
+		.card{
+		
+		}
+	}
+}
+
+@media(min-width:1199px){
+	.port-item{
+		padding:1em 1.5em !important;
+	}
+}
+
+@media(max-width:500px){
+	.port-item{
+		font-size: 0.75em;
+	}
+	.social{
+		font-size: 0.75em;
+	}
+	.btn-outline-light{
+		font-size: 0.75em;
+	}
 }
