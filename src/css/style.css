@@ -105,7 +105,10 @@
   margin-left: 0; }
 
 #portfolio .row .card {
-  min-height: 275px; }
+  min-height: 340px; }
+
+#portfolio .row .img {
+  min-height: 300px; }
 
 @media (min-width: 1199px) {
   .port-item {

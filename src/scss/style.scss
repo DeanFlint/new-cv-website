@@ -150,7 +150,10 @@
 #portfolio {
 	.row{
 		.card{
-		min-height: 275px;
+		min-height: 340px;
+		}
+		.img{
+		min-height: 300px;
 		}
 	}
 }
